@@ -10,6 +10,8 @@ namespace sr
     {
         static void Main(string[] args)
         {
+            for (;;)
+                new Request(Console.ReadLine());
         }
     }
 }
