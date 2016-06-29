@@ -85,7 +85,7 @@ namespace sr
         public string ReadNextWord()
         {
             int length = Data.Length;            
-            int NewIndex = length - 1;
+            int NewIndex = length;
             string data = string.Empty;
 
             for (int i = Index; i < length; i++)
